@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		  
+<!--
+	mapper : 루트 엘리먼트, 유일한 SQL 아이디를 만들기 위해 사용
+	ex) a.b.c.com.emp.dao.SpringEmpDAO[.springEmpSelectAll]
+		sqlSession.selectList("springEmpSelectAll");
+-->	  
+<mapper namespace="a.b.c.com.board.dao.BoardDAO">
+
+	
+</mapper>

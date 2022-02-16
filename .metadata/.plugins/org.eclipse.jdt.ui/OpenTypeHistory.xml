@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.common.service{ChabunService.java[ChabunService" modifiers="513" timestamp="1636015102806"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.common.dao{ChabunDAO.java[ChabunDAO" modifiers="513" timestamp="1636015371907"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.rboard.service{SpringRboardService.java[SpringRboardService" modifiers="513" timestamp="1635304077854"/>
+<typeInfo handle="=springLdh/C:\/00.KOSMO93\/30.Web\/el_spring_ldh_work\/springLdh\/WebContent\/WEB-INF\/lib\/spring-aop-4.3.16.RELEASE.jar&lt;org.springframework.aop(SpringProxy.class[SpringProxy" modifiers="1537" timestamp="1635211637694"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.mem.dao{SpringMemberDAO.java[SpringMemberDAO" modifiers="513" timestamp="1636013424363"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.mem.service{SpringMemberService.java[SpringMemberService" modifiers="513" timestamp="1636013554711"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.login.dao{SpringLoginDAO.java[SpringLoginDAO" modifiers="513" timestamp="1636617361013"/>
+<typeInfo handle="=springLdh/src&lt;a.b.c.com.login.service{SpringLoginService.java[SpringLoginService" modifiers="513" timestamp="1636617450146"/>
+<typeInfo handle="=miniProject/src&lt;a.b.c.com.board.dao{BoardDAO.java[BoardDAO" modifiers="513" timestamp="1643868483422"/>
+</typeInfoHistroy>

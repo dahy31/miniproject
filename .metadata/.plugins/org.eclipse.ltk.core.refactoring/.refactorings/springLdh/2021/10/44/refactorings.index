@@ -1,0 +1,20 @@
+1635212837644	Delete element
+1635212859147	Delete element
+1635212870376	Rename package 'a.b.c.com.controller'
+1635212880385	Rename package 'a.b.c.com.dao'
+1635212887597	Rename package 'a.b.c.com.service'
+1635212897337	Rename package 'a.b.c.com.vo'
+1635214816930	Delete element
+1635229714773	Rename type 'BoardController'
+1635229734491	Rename type 'BoardDAO'
+1635229741996	Rename type 'BoardDAOImpl'
+1635229751828	Rename type 'BoardService'
+1635229757174	Rename type 'SpringBoardService'
+1635229765075	Rename type 'BoardVO'
+1635236691596	Delete elements
+1635237086188	Rename type 'BoardServiceImpl'
+1635237446879	Rename type 'SpringSpringBoardService'
+1635316681040	Rename type 'SpringRbaordDAO'
+1635381615769	Delete element
+1635383078985	Delete element
+1635475677148	Delete element

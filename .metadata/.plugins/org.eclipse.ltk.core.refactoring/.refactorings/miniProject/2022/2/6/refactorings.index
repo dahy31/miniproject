@@ -1,0 +1,8 @@
+1643863733680	Rename package 'mybatis'
+1643863765183	Delete element
+1643863977509	Rename type 'SprngEmpContent'
+1643864017441	Delete element
+1643864052362	Rename package 'a.b.c.com.emp.controller'
+1643864091704	Rename package 'a.b.c.com.board.vp'
+1643868268165	Move 'servlet-context.xml' to 'WEB-INF'
+1643868271889	Move 'spring-servlet.xml' to 'WEB-INF'

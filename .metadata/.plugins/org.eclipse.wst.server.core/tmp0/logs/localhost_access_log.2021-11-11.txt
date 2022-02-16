@@ -1,0 +1,2 @@
+127.0.0.1 - - [11/Nov/2021:13:00:13 +0900] "GET / HTTP/1.1" 404 807
+192.168.219.100 - - [11/Nov/2021:13:00:16 +0900] "GET /springLdh/testBeautiful/beautiful_1.html HTTP/1.1" 200 251

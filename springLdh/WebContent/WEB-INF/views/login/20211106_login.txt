@@ -1,0 +1,67 @@
+1.datasource : 데이터 소스
+-------------------------
+conf/context.xml
+
+데이터베이스 : 오라클 11g 2릴리즈
+jdbc : ojbdc6.jar : Context/WebContent/WEB-INF/lib/ojdbc6.jar copy 하기
+sid : orclKOSMO00
+account : ldh00/ldh1234
+url : jdbc:oracle:thin:@localhost:1521:orclKOSMO00
+jdbc driver : oracle.jdbc.dirver.OracleDriver
+
+cmf 창에서 
+sqlplus /as sysdba, sqlplus "/as sysdba"
+SELECT NAME, DB_UNIQUE_NAME FROM V$DATABASE;
+
+2.요구사항
+로그인 하기
+MID
+MPW
+
+카운트
+0:로그인 실패
+1:로그인 성공
+1 이상 : 로그인 실패
+
+########################
+세션 트래킹
+------------------
+중복인 로그인 허용
+싱글 사인 온
+
+하나의 브라우저에서 하나으리 서버에서 로그인
+다중 브라우저 서버가 여러대에서 로그인 처리
+#########################
+
+로그인 쿼리
+SELECT  A.MID MID
+		,A.MPW MPW
+FROM SPRING_MEMBER A
+WHERE  A.DELETEYN ='Y'
+AND  A.MID=?
+AND  A.MPW=?
+
+3.클래스 설계
+a.b.c.com.login
+
+a.b.c.com.login.controler
+	LoginController
+a.b.c.com.login.service
+	LoginService
+		public int loginCheckCnt(SpringMemberVO mvo);
+	LoginServiceImpl
+a.b.c.com.login.dao
+	LoginDAO
+		public int loginCheckCnt(SpringMemberVO mvo);
+	LoginDAOImpl
+
+
+/mybatisconfig/mybatis-config.xml
+/mybatisquery/*.xml
+spring_login.xml
+
+view : jsp
+springLdh/WebContent/WEB-INF/views/login/
+springLoginFome.jsp
+springLogin.jsp
+springLogout.jsp
